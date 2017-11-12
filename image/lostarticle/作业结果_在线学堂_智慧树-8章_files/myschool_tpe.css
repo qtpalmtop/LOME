@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fl{ float:left;}
+.fr{ float:right;}
+.mt20{ margin-top:20px;}
+.mt10{ margin-top:10px;}
+.assignment{ padding:20px; background:#eff4e6;}
+.assignment_l{ float:left;}
+.assignment_r{ float:right; width:100px;}
+.assignment_l li{ display:block;  margin-bottom:10px; min-height:30px; line-height:30px}
+.assignment_label{ display:inline-block; *display:inline; *zoom:1; margin-right:5px;float:left;margin-top:5px;line-height:20px}
+.w60{ width:60px;}
+.w40{ width:40px;}
+.w30{ width:30px;}
+.w100{ width:100px;padding-left:9px}
+.w150{ width:150px;padding-left:9px}
+.w200{ width:200px}
+.w140{width:140px;padding-left:14px}
+.w192{width:192px;padding-left:14px}
+.btn_a{ display:block; background:#8fc0b2;}
+.btn_b{ display:block; background:#aac573;}
+.divider{ padding:0 10px; font-family:"Tahoma"; font-size:10px; color:#999;}
+.assignment_input_a,.assignment_input_b{ display:inline-block; *display:inline; *zoom:1;border:1px solid #ccc; padding:3px 10px}
+.assignment_input_a{ width:300px;}
+..assignment_input_b{}
+.assignment_textarea{ width:728px;padding:3px 10px; height:60px; border:1px solid #ccc; font-size:12px; }
+.assignment_select{ width:160px;  padding:3px;}
+
+.assignment_list_t{background:#f5f5f5;border:1px solid #e0e0e0}
+.list_t_a,.list_t_b,.list_t_c,.list_t_d{display:inline-block;text-indent:15px;height:30px;line-height:30px;border-right:1px solid #e0e0e0; *display:inline; *zoom:1; color:#000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.list_t_a{ width:160px;}
+.list_t_b{ width:220px;}
+.list_t_c{ width:205px;}
+.list_t_d{ width:205px;}
+.list_t_f{ width:270px;}
+.list_t_g{ width:30px;}
+
+.assignment_list_item02 .tm_item_li{ line-height:33px;}
+.assignment_list_item li{ height:30px; line-height:30px; background:#eff4e6; border-top:1px solid #e1ebcf; border-bottom:1px solid #fff; padding-left:20px;}
+.tmui_work_items,.tmui_explain_items,.tm_children_items{border-top:1px solid #ddd;border-bottom:1px solid #ddd;margin-top:-1px;*margin-top:-3px}
+.tm_work_doc,.tmui_work_items,.tm_children_items{background:#fff}
+.tmui_work_items{padding-left:20px}
+.tmui_explain_items{padding-left:20px}
+.list_item_span{height:30px;display:inline-block;*display:inline; *zoom:1;border-right:1px solid #ddd;float:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.list_item_strong{ font-weight:normal; color:#999;}
+.assignment_opt{ height:30px; line-height:30px; background:#f3f3f3; text-align:center;}
+.list_item_span div{display:inline;}
+
+.assignment_create{ height:30px; line-height:30px; background:#99c7c1; text-align:center; color:#fff; }
+
+.mt30{margin-top:30px;}
+.assignment_note{ background:#f3f3f3; padding:7px 10px;}
+.assignment_item_d{ width:450px;}
+.assignment_input_a, .assignment_input_b, .assignment_input_c{ margin-right:10px;}
+.assignment_input_d{ display:inline-block; *display:inline; *zoom:1;border:1px solid #ccc; padding:3px 10px}
+.assignment_input_c{ border:none; padding:0}
+.assignment_input_d{width:60px;}
+.ml10{ margin-left:10px;}
+.btn_c{ }
+.btn_d{  background:#aac573;}
+
+.assignment_item_e{ width:250px;}
+.assignment_score{padding:20px 0 22px 30px; background:#900; width:130px; color:#fff;}
+.list_item_img{display:inline-block; *display:inline; *zoom:1; vertical-align:middle;}
+.red{ color:#f00;}
+.w600{ width:600px;}
+.w850{ width:850px;}
+.w50{ width:50px;}
+.li_bg_gray{ background:#f8f8f8!important; border-bottom: 1px solid #FFFFFF!important; border-top: 1px solid #dfdfdf!important;}
+.assignment_list_item_b {line-height:20px; background:#eff4e6; border-top:1px solid #e1ebcf; border-bottom:1px solid #fff; padding-left:20px;}
+.assignment_list_item_c{ line-height:20px;background:#f8f8f8; border-top:1px solid #dfdfdf; border-bottom:1px solid #fff; padding-left:20px; padding-bottom:10px;}
+.v_t{ vertical-align:top;}
+.list_item_p{ padding-left:50px; padding-top:10px;}
+.list_t_e{display:inline-block; *display:inline; *zoom:1; color:#000;}
+.list_t_e{ width:400px;}
+.assignment_list_item_d{ line-height:20px;background:#f8f8f8; border-top:1px solid #dfdfdf; border-bottom:1px solid #fff; padding-left:70px; padding-right:70px; padding-bottom:20px;padding-top:20px;}
+
+.wpaper_main { padding:24px 0 0 0; zoom:1; }
+.wpaper_part { padding:0 0 10px 0; font-size:12px; zoom:1; }
+.wpaper_ptit { padding:7px 0 7px 13px; margin:0 0 5px 0; border-left:1px solid #5ca69d; border-top:1px solid #5ca69d; background-color:#99c7c1; line-height:16px; zoom:1; }
+.wpaper_s { float:left; padding:0 25px 0 0; }
+.wpaper_sname { float:left; padding:0 190px 0 0; }
+.wpaper_sinfo { float:left; padding:0 22px 0 0; font-weight:normal; color:#ffffff; }
+.wpaper_sinfo span { color:#333333; }
+.wpaper_ptips { padding:6px 46px 10px 46px; background-color:#f2f2f2; line-height:20px; }
+.wpaper_topicone { padding:10px 46px 10px 46px; line-height:20px; }
+.wpaper_topicone p { padding:0 0 8px 0; }
+.wpaper_tarea { width:586px; height:200px; margin:10px 0 0 0; overflow:auto; }
+.wpaper_topiconea { padding:10px 0 0 0; line-height:20px; }
+.wpaper_ttips { padding:6px 46px 10px 46px; margin:10px 0 0 0; background-color:#f2f2f2; line-height:20px; }
+.boxt_topic { padding:10px 0 0 0; }
+.boxt_topica { padding:0 0 10px 0; }
+.boxt_topica dt { float:left; width:46px; }
+.boxt_topica dt span { display:inlne-block; width:21px; padding:3px 7px 2px 7px; text-align:center; line-height:16px; background-color:#f2f2f2; }
+.boxt_topica dd { float:left; width:632px; }
+.t_options { padding:0 0 5px 18px; text-indent:-18px; }
+.t_options input { width:13px; height:13px; +vertical-align:1px;}
+.boxt_topicb { padding:6px 46px 10px 46px; line-height:20px; }
+.boxt_topicb p { padding:0 0 16px 0; }
+.topicans_inp { width:400px; }
+
+.assignment_textarea{ color:#333;}
+.w300{ width:300px;}
+
+/* add by xzn  */
+.grayBg{background:#eee}
+.coursework_operateBox{height:40px;line-height:40px;background:url(../../images/common/sprite_titBg.png) repeat-x;background-position:0 -90px}
+.coursework_operateBox h1{text-indent:20px;font-size:14px;font-weight:bold;float:left;color:#fff}
+.coursework_operateBrn{float:right;margin-right:10px}
+.btnStyleX:link{display:inline-block;padding:0 18px;height:25px;line-height:25px;background-color:#005a4f;border-radius:3px;color:#fff;}
+.btnStyleX:visited{color:#fff;display:inline-block;padding:0 18px;height:25px;line-height:25px;background-color:#005a4f;border-radius:3px;color:#fff;}
+.btnStyleX:hover{text-decoration:none;color:#f2f2f2}
+.btnStyleX:active{color:#fff; display:inline-block;padding:0 18px;height:25px;line-height:25px;background-color:#005a4f;border-radius:3px;color:#fff;}
+.btnStyleX:focus{display:inline-block;padding:0 18px;height:25px;line-height:25px;background-color:#005a4f;border-radius:3px;color:#fff;}
+.assignment{padding:30px;background:#fff;border-bottom:1px solid #d8d8d8}
+.cw_iptStyle_w180{width:180px;*float:left}
+.cw_selStyle_w193{width:193px;*float:left}
+.cw_taStyle_w760{width:760px;*float:left}
+.cw_taStyle_w790{width:790px;*float:left}
+.cw_taStyle_w90{width:90px;*float:left}
+.assignment_item{width:290px}
+.tm_workpart_box_bg{background:#fff;padding:30px}
+.inline_label{display:inline;margin:0}
+.assignment_list_t th{padding:4px 0;text-indent:15px}
+.del_btnStyle01{display:inline-block;width:24px;height:24px;margin-top:3px;background:url(../../images/common/del_btnStyle01.png) no-repeat;}
+.assignment_opt{padding:30px;border:1px dotted #ccc;background:#fff;border-radius:2px}
+.linkBtnStyle_blue,.linkBtnStyle_red,.linkBtnStyle_yellow,.linkBtnStyle_green{display:inline-block;border-radius:3px;height:30px;line-height:30px;padding:0 20px;color:#fff}
+.linkBtnStyle_blue{background:#428bca}
+.linkBtnStyle_red{background:#d9534f}
+.linkBtnStyle_yellow{background:#f0ad4e}
+.linkBtnStyle_green{background:#5cb85c}
+.linkBtnStyle:link{color:#fff;}
+.linkBtnStyle:visited{color:#fff;}
+.linkBtnStyle:hover{text-decoration:none;color:#f2f2f2}
+.linkBtnStyle:active{color:#fff;}
+.assignment_create:link{border:1px solid #d1d1d1;height:38px;text-shadow:-1px -1px 1px #fff;line-height:38px;color:#000;background:url(../../images/common/sprite_titBg.png) repeat-x;background-position:0 -140px}
+.assignment_create:hover{background-position:0 -185px;color:#000;text-decoration:none}
+.assignment_list_label{height:30px;line-height:30px;display:inline-block;margin:0 5px 0 0}
+.list_t_b label{display:inline}
+.assignment_list_t span{margin:0;float:left;padding:5px 0}
+.textQ_listBox{border:solid #ddd;border-width:0 1px}
+.no_border{border:none}
+.tm_children_items{border-left:1px solid #ddd}
+.examDetailBg{background:#fff;min-height:768px}
+.text_input02{padding:0;width:50px}
+.text_input03{padding:0;width:100px}
+.w145{padding-left:14px}
+.search_screenBox{background:#e0e0e0;border:1px solid #ccc;height:38px;line-height:38px}
+.search_screenBox label{width:50px;display:inline-block;text-align:center;line-height:38px;height:38px;margin:0;*float:left}
+.tmui_work_theader th{border-right:1px solid #e0e0e0;text-indent:15px}
+.tmui_work_table{table-layout:auto}
+.tmui_work_table tbody tr:nth-child(even){background:#f8f8f8}
+.tmui_work_table tbody tr.onover{background:#e0e0e0}
+.tmui_work_table td{border-right:1px solid #e0e0e0;*border-bottom:1px solid #e0e0e0;text-indent:15px;white-space:nowrap;}
+.tmui_work_table .knowEllipsis{width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.coursework_operateBox h1 div{color:#fff;font-size:14px}
+.assignment_l02 .assignment_label{margin-top:0}
+.assignment_list_item02 .tmui_work_items02{line-height:33px}
+#tm_paperBox img{vertical-align:middle}
+.rebiewSetBox{width:829px;padding:10px 5px;border:1px dotted #ccc;}
+.box_ccateg .clear_floata{border:1px solid #ccc;background:#fff;}
+
+.list_item_span img{max-width:70px;max-height:35px;}
+.scoreIpt-qt{width:40px;border:1px solid #ccc;padding:2px 5px;margin-top:10px;}

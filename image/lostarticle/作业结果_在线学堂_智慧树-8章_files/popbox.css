@@ -1,0 +1,120 @@
+@charset "utf-8";/* CSS Document */
+/* popbox */
+.tm_window_warp{width: 100%;height: 100%;overflow: hidden;}
+.tm_winow_popboxes{background-color:#ffffff;overflow-y:auto;overflow-x:hidden;}
+.tm_window_title,.tm_window_close{background:url(bg_sppopbox.png) no-repeat -400px -400px;}
+.wrap_popboxes .popboxes_close,.ico_warm,.ico_error,.ico_success,.ico_tip,.ico_question{background:url(popup-tips-icon.png) no-repeat;}
+.tm_window_box{width:360px;font-size:14px;color:#666666;background:#fff;border:1px solid #ccc;position:absolute;top:2;left:2;border-radius:4px;padding: 1px}
+.wrap_popboxes{font-size:12px;color:#666666;background:#fff;box-shadow:0 2px 18px #444;*border:1px solid #444;}
+.wrap_popboxes .popboxes_tit,.tm_window_title{position:relative;display:block;height:40px;width:100%;padding:0;background:url(greenLinebg01.png) repeat;line-height:40px;}
+.popboxes_tit strong{display:block;padding:0 20px;}
+.tm_window_title strong{display:block;}
+.wrap_popboxes .popboxes_close,.tm_window_close{display:block;position:absolute;top:0px;right:10px;width:20px;height:20px;background-position:4px -383px;}
+.tm_window_close:hover{background-position:0 -338px;}
+.box_popboxes{background-color:#ffffff;}
+#popbox_title{font-size:14px;font-weight:bold;color:#c7e1dd;}
+.popbox_apptit_selected{padding:6px 6px 11px 6px;background:#fff;border-bottom:0;border-left:1px solid #ccc;border-top:1px solid #ccc;border-right:1px solid #ccc}
+.popbox_apptit{padding:6px 6px 11px 6px;border-bottom:0;border-top:1px solid #ccc;border-right:1px solid #ccc;}
+.tm_apptit{position:relative;}
+.popboxes_main,.tm_window_main{ position:relative;zoom:1;border-top:1px solid #fff;margin-bottom:30px;}
+.popboxes_con{margin:35px 35px 0 130px;min-height:60px;padding:10px 0 10px 20px;border-left:1px solid #ccc;}
+.popboxes_con p{font-size:14px;line-height:24px;}
+.ico_warm,.ico_error,.ico_success,.ico_tip,.ico_question{float:left;display:block;width:75px;height:75px;margin:35px 0 0 35px;}
+.ico_warm{background-position:0 0;}
+.ico_error{background-position:0 -75px;}
+.ico_success{background-position:0 -150px;}
+.ico_tip{background-position:0 -225px;}
+.ico_question{background-position:0 -300px;}
+.wrap_popboxes .popboxes_btn{padding:17px 0;text-align:center;font-size:12px;background:#f1f1f1;border-top:1px solid #ccc;}
+.wrap_popboxes .popbtn_yes,.wrap_popboxes .popbtn_cancel{display:inline-block;width:65px;height:28px;margin-left:10px;line-height:28px;text-align:center;text-decoration:none;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.wrap_popboxes .popbtn_yes{background:#008573;}
+.wrap_popboxes .popbtn_yes span,.wrap_popboxes .popbtn_cancel span{display:inline;float:none;padding:0;height:auto;line-height:inherit;color:#fff;line-height:28px;}
+.wrap_popboxes .popbtn_yes:hover{background:#009682;text-decoration:none;}
+.popbox_input{border-color:#9A9A9A #CDCDCD #CDCDCD #9A9A9A;border-style:solid;border-width:1px;font:14px arial;padding:4px 5px;vertical-align:top;margin-top:4px;}
+.wrap_popboxes .popbtn_cancel{background:#8c8c8c;}
+.wrap_popboxes .popbtn_cancel span{color:#fff;}
+.wrap_popboxes .popbtn_cancel:hover{background:#9f9f9f;text-decoration:none;}
+.wrap_popboxes a{ color:#666; text-decoration: none;}
+.wrap_popboxes a:hover{ color:#333; text-decoration: none;}
+#taskbar .taskbarLeft, #taskbar .taskbarRight { display:block; overflow:hidden; width:18px; height:29px; text-indent:-1000px; position:absolute; top:0;}
+#taskbar .taskbarLeft { background-position:0 0; left:2px; cursor:pointer;}
+#taskbar .taskbarLeft:Hover { background-position:0 -50px;}
+#taskbar .taskbarLeftDisabled { background-position:0 -100px; cursor:default;}
+#taskbar .taskbarRight { background-position:0 -150px; right:2px; cursor:pointer;}
+#taskbar .taskbarRight:Hover { background-position:0 -200px;}
+#taskbar .taskbarRightDisabled { background-position:0 -250px; cursor:default;}
+#taskbar, #taskbar li, #taskbar li .taskbutton { background:url(tm_window_taskbar.png) no-repeat;}
+#taskbar .close, #taskbar .restore, #taskbar .minimize { background:url(taskbar_icon.png) no-repeat;}
+#taskbar li .taskbutton span { color:#FFF;}
+#taskbar .taskbarLeft, #taskbar .taskbarRight { background:url(taskbar_control.png) no-repeat;}
+/* Icon */
+.tabsHeader li.main a span span, #taskbar li .taskbutton span { background:url(icon.png) no-repeat;}
+
+#taskbar { overflow:hidden; height:29px; border-style:solid; border-width: 0; border-color:#0f3255; background-color:#112746; background-repeat:repeat-x; position:absolute; z-index:30;}
+#taskbar .taskbarContent { display:block; overflow:hidden; height:29px; position:relative;}
+#taskbar .taskbarMargin { margin:0 20px;}
+#taskbar ul { position:absolute; width:10000px;}
+#taskbar li { float:left; height:27px; margin-left:2px; padding-left:5px; background-position:0 -50px; position:relative; cursor:pointer;}
+#taskbar li .taskbutton { float:left; display:block; overflow:hidden; height:27px; background-position:100% -100px;}
+#taskbar li .taskbutton span { display:block; overflow:hidden; width:70px; height:27px; line-height:29px; padding:0 25px 0 20px; background-position:3px -42px;}
+
+#taskbar .selected { background-position:0 -250px;}
+#taskbar .selected .taskbutton { background-position:100% -300px;}
+#taskbar li:hover { background-position:0 -150px;}
+#taskbar li:hover .taskbutton { background-position:100% -200px;}
+
+#taskbar .close { display:block; overflow:hidden; width:11px; height:11px; padding:0; text-indent:-1000px; position:absolute; top:5px;}
+#taskbar  .close { right:3px;}
+#taskbar .close:Hover { background-position:0 -50px;}
+
+
+.tm_window_title_btns .close, .tm_window_title_btns .maximize, .tm_window_title_btns.restore, .tm_window_title_btns .minimize { display:block; overflow:hidden; text-indent:-1000px; width:19px; height:19px; position:absolute; top:5px;}
+.tm_window_title_btns .restore { right:14px; background-position:0 -100px;}
+.tm_window_title_btns .restore:Hover { background-position:0 -150px;}
+.tm_window_title_btns .minimize { right:14px; background-position:0 -200px;}
+.tm_window_title_btns .minimizeHover { background-position:0 -250px;}
+.tm_window_title_btns .maximize,.tm_window_title_btns .minimize,.tm_window_title_btns .close,.tm_window_title_btns .restore{ background:url('tm_window_mcm.png') no-repeat;}
+.tm_window_title_btns .close { background-position:0 0; right:4px;}
+.tm_window_title_btns .close:hover { background-position:0 -50px;}
+.tm_window_title_btns .maximize { background-position:0 -100px; right:23px;}
+.tm_window_title_btns .maximize:hover { background-position:0 -150px;}
+.tm_window_title_btns .restore { background-position:0 -200px; right:23px;}
+.tm_window_title_btns .restore:hover { background-position:0 -250px;}
+.tm_window_title_btns .minimize { background-position:0 -300px; right:42px;}
+.tm_window_title_btns .minimize:hover { background-position:0 -350px;}
+.tm_resizable{display:none; overflow:hidden; border-style:dashed; border-width:1px; opacity:0.5; filter:alpha(opacity=50); position:absolute; top:0; left:0; z-index:999;}
+.tm_resizable{display:none; overflow:hidden; opacity:0.5; filter:alpha(opacity=50); position:absolute; top:0; left:0; z-index:999;background:#c3d7dc;border-radius:4px;box-shadow:0 0 1em #ccc;}
+
+
+/*8arrow*/
+.wrap_popboxes .resizable_f_r{background-position:0 -400px;height:11px;width:11px;}
+.resizable{border-style:dashed;border-width:1px;display:none;left:0;opacity:0.5;overflow:hidden;position:absolute;top:0;z-index:100;}
+.resizable_h_l,.resizable_h_r,.resizable_h_c,.resizable_c_l,.resizable_c_r,.resizable_f_l,.resizable_f_r,.resizable_f_c{display:block;height:6px;overflow:hidden;position:absolute;width:6px;}
+.resizable_h_l{cursor:nw-resize;left:0;top:0;z-index:2;}
+.resizable_h_r{cursor:ne-resize;right:0;top:0;z-index:2;}
+.resizable_h_c{cursor:n-resize;left:0;top:0px;width:100%;z-index:1;}
+.resizable_c_l{cursor:w-resize;left:0;top:0;height:100%;z-index:1;}
+.resizable_c_r{cursor:e-resize;right:0;top:0;height:100%;z-index:1;}
+.resizable_f_l{bottom:0;cursor:sw-resize;left:0;z-index:2;}
+.resizable_f_r{bottom:0;cursor:se-resize;right:0;z-index:2;}
+.resizable_f_c{bottom:0;cursor:s-resize;left:0;width:100%;z-index:1;}
+/*8arrow*/
+.exmayui-loading{left:50%;top:50%;margin-left:-100px;margin-top:-8px;padding:18px;color:#444444;z-index:1000;border:2px solid #BED8FE;line-height:16px;position:fixed;background:#EAF3FC;font-size:12px;box-shadow:0px 0px 3px #f1f1f1;-webkit-box-shadow:0px 0px 3px #f1f1f1;-moz-box-shadow:0px 0px 3px #f1f1f1;border-radius:4px;}
+.exmayui-loading span{padding:5px 5px 10px 45px;background-position:0 2px;color:#444444;background:url('loading.gif') no-repeat;}
+
+/*文件夹和文件的css*/
+.box_badgetab{padding:10px 0 0 20px;border-bottom:1px solid #CCCCCC;}
+.box_badgetab li{float:left;margin:0 0 0 -1px;border:1px solid #cccccc;border-bottom:0 none;background-color:#ffffff;cursor:pointer;}
+.box_badgetab li strong{display:block;padding:7px 15px 5px 15px;border:1px solid #ffffff;line-height:14px;background-color:#f4f4f4;font-weight:normal;}
+.box_badgetab .badgetab_cur{font-weight:bold;}
+.box_badgetab .badgetab_cur strong{background-color:#ffffff;font-weight:bold;padding-top:6px;padding-bottom:6px;position:relative;top:1px;}
+.box_badgecon{background-color:#ffffff;padding:0 0 10px 0;}
+.badgecon_normal{display:none;}
+.badgecon_cur{display:block;}
+.badge_maincon{padding:0 0 0 20px;}
+.badge_conlist{padding:0 0 10px 0;}
+.badge_conlist li{float:left;margin:14px 20px 0 0;_display:inline;}
+.badge_conlist img{display:block;overflow:hidden;width:80px;height:80px;}
+.badge_page{padding:0 20px 0 0;text-align:right;}
+.badge_page a,.badge_page span{display:inline-block;padding:4px 9px 4px 9px;color:#007163;background-color:#f3f3f3;text-decoration:none;line-height:14px;}
+.badge_page .badge_pagecur{color:#333333;background:none;}

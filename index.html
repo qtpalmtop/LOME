@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>失物汇</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	
+	<link rel="stylesheet" href="css/styles.css" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+	<script src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/myfocus-2.0.4.min.js"></script>
+	<script type="text/javascript" src="./js/main.js" ></script>
+	<script type="text/javascript">
+	//设置
+	myFocus.set({
+		id:'title-image',//ID
+		pattern:'mF_kdui',//风格应用的名称
+		time:3,//切换时间间隔(秒)
+		trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+		width:1364,//设置图片区域宽度(像素)
+		height:490,//设置图片区域高度(像素)
+		txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+	});
+	</script>
+</head>
+<body>
+	<div id="header">
+		<div class="title" >
+			<a href="#"><img id="logo" src="./image/home/logo.png" />
+			<p style="font-size:40px;font-family:楷体;margin:20px auto 0;padding-left:10px;color:#FFF;float:left">LOME</a></p>
+			<ul class=title-nav>
+				<a  href="index.html"><li class="first"><b>首页</b></li></a>
+				<a href="shows.html"><li class="shows">失物中心</li></a>
+				<a href="supply.html"><li class="supply"><span style="margin-right:15px;">失物补给</span>
+	<!-- 				<ul class="title-nav-menu">
+						<li>遗失失物</li>
+						<li>提供失物</li>
+					</ul>
+				</li></a> -->	
+			</ul>
+			<ul class="title-left-nav">
+				<li class="login">
+					<a href="register.html"><img width="17px"  src="./image/home/login.png" />
+					<span>登录</span></a>
+					<a href="login.html"><img width="17px"  src="./image/home/login2.png" />
+					<span>注册</span></a>
+				</li>	
+			</ul>	
+		</div>
+
+		<div id="title-image"><!--焦点图盒子-->
+			<div class="loading"></div><!--载入画面(可删除)-->
+			<div class="pic"><!--图片列表-->
+			<ul>
+				<li><a href="#1"><img src="image/home/background3.jpg" thumb="image/home/b3.png" alt="12345" text="图片1更详细的描述文字" /></a></li>
+				<li><a href="#2"><img src="image/home/background2.jpg" thumb="image/home/b2.png" alt="678910" text="图片2更详细的描述文字" /></a></li>
+				<li><a href="#3"><img src="image/home/background1.jpg" thumb="image/home/b1.png" alt="233" text="图片3更详细的描述文字" /></a></li>
+				<li><a href="#4"><img src="image/home/background4.jpg" thumb="image/home/b4.png" alt="666" text="图片4更详细的描述文字" /></a></li>
+				<li><a href="#5"><img src="image/home/background5.jpg" thumb="image/home/b5.png" alt="999" text="图片5更详细的描述文字" /></a></li>
+			</ul>
+			</div>
+		</div>
+		
+<!-- 		<div class="title-image">
+			<div class="slider">	
+				<img src="./image/home/background3.jpg" />
+				
+			</div>
+			<div class="first_caption">
+				<div class="caption"  style="margin-left:90px;">
+					<h6>失物汇</h6>
+					<p>有些东西，丢了还可以再买回来，而有些时间，确是再也买不回来了</p>
+				</div>
+			</div>
+			
+		</div> -->
+
+		<!-- <div class="control">
+			<div class="nav-wrapper">
+				<a class="nivo-prevNav"><span>|<|</span></a>
+				<a class="nivo-nextNav"><span>|>|</span></a>
+			</div>
+			<div class="nivo-controlNav">
+				<ul class=nivo-nav>
+				<li class="number-1" style="margin-left:-15px"><button type="button"></button></li>
+				<li class="number-2"><button type="button"></button></li>
+				<li class="number-3"><button type="button"></button></li>	
+				<li class="number-4">
+						<span><button type="button"></button></span>
+				</li>	
+			</ul>	
+			</div>
+		</div> -->
+		
+		<div class="big-quotes">
+			<p  style="padding-top:30px;">“丢东西并不可怕，可怕的是没有一个平台帮助我们快捷地找回失去之物”</p>
+		</div>
+		
+	</div>
+	
+	<div class="container">
+		<div class="services-blocks">
+			<div class="grid">
+			
+				<img src="./image/home/fly.png">
+				<h5>失物找回</h5>
+			</div>	
+			<div class="grid">
+			
+				<img src="./image/home/hi.png">
+				<h5>结识盆友</h5>
+			</div>	
+			<div class="grid">
+			
+				<img src="./image/home/setting.png">
+				<h5>失物提供</h5>
+			</div>	
+			<div class="grid">
+			
+				<img src="./image/home/contactus.png">
+				<h5>联系我们</h5>
+			</div>				
+		</div>
+	</div>
+	
+	<div class="big-heading">
+		<p>我们致力于在各个校园内建造帮助他人找回失物的这个平台</p>
+		<p>目的只是便捷地服务大众</p>
+	</div>
+	
+	<div class="setion-head">
+		<img width="100%" src="./image/home/setion-head.jpg">
+	</div>
+	<hr style="width:100%;size:10px" />
+	
+	<div class="recent-project">
+		<div class="grid_4">
+			
+			<div class="grid_4-img">
+				
+				<img src="./image/placeholder/1.jpg">
+			</div>
+			<h3>失物中心</h3>
+			<p>失去的东西最终都能回到我们身边</p>
+			<p>虽然有时并不是以我们期待的方式</p>
+			<a href="shows.html"><div class="mark">
+				<div class="block"></div>
+			</div>
+			</a>
+		</div>
+		
+		<div class="grid_4">
+			
+			<div class="grid_4-img">
+				
+				<img src="./image/placeholder/2.jpg">
+			</div>
+			<h3>失物动态</h3>
+			<p>未来的不可知</p>
+			<p>是我们前进的源动力</p>
+			<div class="mark">
+				<div class="block"></div>
+			</div>
+		</div>
+		
+		<div class="grid_4" style="line-height:10px;">
+			<div class="grid_4-img">
+				<img src="./image/placeholder/3.jpg">
+			</div>
+			<h3>关于我们</h3>
+			<p>偶尔要回头看看</p>
+			<p>否则永远都在追寻</p>
+			<p>而不知道自己失去了什么</p>
+			<div class="mark">
+				<div class="block"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div style="clear:both"></div>
+	
+	<div class="setion-bottom">
+		
+	</div>
+	
+	<div id="bottom">
+		<ul>
+			<li><a href="../itemPage/aboutus.html">关于我们</a>&nbsp;&nbsp;&nbsp;</li>
+			<li><a href="../itemPage/help.html">帮助中心</a>&nbsp;&nbsp;&nbsp;</li>
+			<li><a href="../itemPage/link.html">友情链接</a>&nbsp;&nbsp;&nbsp;</li>
+			<li><a href="../itemPage/protocol.html">服务协议</a>&nbsp;&nbsp;&nbsp;</li>	
+		</ul>
+		<!-- <img id="underline" src="../image/home/line2.png" />  -->
+		<hr style="clear:both;color:#fff" />
+		<div class="copyright"><p>Copyright ? 2015 - 2016 Tencent. All Rights Reserved. 同创公司版权所有</p></div>
+	</div>
+
+</body>
+</html>
